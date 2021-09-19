@@ -1,0 +1,9 @@
+{
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "articles",
+            "path": "[[workspace]]/_posts"
+        }
+    ],
+    "frontMatter.dashboard.openOnStart": true
+}
