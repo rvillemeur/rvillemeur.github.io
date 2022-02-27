@@ -23,16 +23,20 @@ title: computer cook blog
 description: >- # this means to ignore newlines until "baseurl:"
     A blog about Pharo, GToolkit Cuis, and other variant of Smalltalk. I'll post my findings, reflexion, about those environment, especially on the graphical stack, as well as other topic, dependent of my mood
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rvillemeur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  rvillemeur
 author: renaud de villemeur
+paginate:            5
+permalink:           pretty
 
 # Build settings
 # theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
