@@ -4,7 +4,7 @@ title: How form are managed
 permalink: blog/form
 date: '2021-02-06 21:15:55 -0500'
 categories: pharo gtoolkit gui morphic form
-comments_id: 1
+comments_id: 2
 draft: true
 ---
 
