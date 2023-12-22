@@ -29,6 +29,7 @@ github_username:  rvillemeur
 author: renaud de villemeur
 paginate:            5
 permalink:           pretty
+issues_repo: rvillemeur/rvillemeur.github.io
 
 # Build settings
 # theme: minima
