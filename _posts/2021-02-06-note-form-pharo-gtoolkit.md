@@ -5,7 +5,7 @@ permalink: blog/form
 date: '2021-02-06 21:15:55 -0500'
 categories: pharo gtoolkit gui morphic form
 comments_id: 3
-draft: true
+draft: false
 ---
 
 # Note on Form and diplay color:
