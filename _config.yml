@@ -27,7 +27,7 @@ url: "https://rvillemeur.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  rvillemeur
 author: renaud de villemeur
-paginate:            5
+paginate:            2
 permalink:           pretty
 issues_repo: rvillemeur/rvillemeur.github.io
 
