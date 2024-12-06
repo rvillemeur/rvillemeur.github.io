@@ -4,7 +4,12 @@
     {
       "title": "articles",
       "path": "[[workspace]]/_posts"
+    },
+    {
+      "title": "drafts",
+      "path": "[[workspace]]/_drafts"
     }
   ],
-  "frontMatter.dashboard.openOnStart": true
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.website.host": "rvillemeur.github.io"
 }

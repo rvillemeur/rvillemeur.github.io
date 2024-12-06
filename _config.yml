@@ -38,6 +38,19 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
+jekyll_compose:
+  draft_default_front_matter:
+    description:
+    image:
+    category:
+    tags:
+  post_default_front_matter:
+    description:
+    image:
+    category:
+    tags:
+    published: false
+    sitemap: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
