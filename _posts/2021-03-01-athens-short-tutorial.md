@@ -8,9 +8,9 @@ comments_id: 2
 draft: true
 ---
 
-# Integration Athens and Spec.
+## Integration Athens and Spec.
 
-# Introduction
+### Introduction
 
 There are two different computer graphics: vector and raster graphics. 
 Raster graphics represents images as a collection of pixels. Vector graphics 
@@ -45,7 +45,7 @@ When you integrate Athens with Morphic, you'll use the rendering engine to
 create your picture. It's then transformed in a Form and displayed using on 
 the screen using BitBlt.
 
-# Athens with Morphic
+### Athens with Morphic
 We'll see how to use Athens directly integrated with Morphic. So will be the 
 base class we'll use after for all our experiment:
 
@@ -126,7 +126,7 @@ Congratulation, you have now created your first morphic windows where content
 is rendered using Athens.
 
 
-# Athens vocabulary
+## Athens vocabulary
 
 The reason you are using Athens in a program is to draw. 
 The *source* and *mask* are freely placed somewhere over the *destination* surface. 
@@ -135,13 +135,13 @@ transferred to the destination wherever the mask allows it. To that extent there
 are five drawing verbs, or operations: *Stroke*, *fill*, *drawString*, *paint*
 and *mask*. They are all similar, they differ by how they construct the mask.
 
-## Destination
+### Destination
 The destination is the *surface* on which you're drawing. This surface collects 
 the elements of your graphic as you apply them, allowing you to build up a 
 complex work as though painting on a canvas.
 ![Athens destination](/media/destination.png)
 
-## Source
+### Source
 The source is the "paint" you're about to work with. I show this as it is—plain 
 black for several examples—but translucent to show lower layers. Unlike real 
 paint, it doesn't have to be a single color; it can be a pattern or even a 
@@ -150,7 +150,7 @@ another?). Also unlike real paint it can contain transparency information—the
 Alpha channel.
 ![Athens source](/media/source.png)
 
-## Mask
+### Mask
 The mask is the most important piece: it controls where you apply the source to 
 the destination. I will show it as a yellow layer with holes where it lets the 
 source through. When you apply a drawing verb, it's like you stamp the source 
@@ -158,9 +158,9 @@ to the destination. Anywhere the mask allows, the source is copied. Anywhere
 the mask disallows, nothing happens.
 ![Athens mask](/media/source.png)
 
-## Path
+### Path
 The path is somewhere between part of the mask and part of the context. 
 I will show it as thin green lines on the mask layer. It is manipulated by path 
 verbs, then used by drawing verbs.
 
-## stroke
+### stroke
