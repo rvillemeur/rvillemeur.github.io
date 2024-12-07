@@ -11,6 +11,6 @@
     }
   ],
   "frontMatter.dashboard.openOnStart": true,
-  "frontMatter.website.host": "rvillemeur.github.io",
+  "frontMatter.website.host": "https://rvillemeur.github.io/",
   "frontMatter.git.enabled": true
 }
