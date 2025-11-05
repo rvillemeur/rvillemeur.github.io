@@ -43,4 +43,5 @@ Si vous avez un dégât qui impacte vos voisins (bonjour les dégâts des eaux e
 Le tout, dépendant de votre appétit à vous couvrir, peut nécessiter une certain montant d'argent ( *gestion du budget* )
 
 Tout cela ne s'improvise pas, et demande un **plan stratégique** pour vous assurer de continuer à pouvoir dormir sur vos 2 oreilles. 
+Si vous vous retrouvez gros jean comme devant, comment l'anticipez vous ( *risque réputationnel* )
 Vous voudriez vous assurer que vous êtes bien protégé - laissez-moi un commentaire pour en discuter.
