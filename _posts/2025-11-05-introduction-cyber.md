@@ -2,7 +2,7 @@
 layout: post
 title: Introduction à la cyber
 permalink: blog/introcyber
-date: '2025-11-05 21:15:55 -0500'
+date: '2025-11-04 21:15:55 -0500'
 categories: cyber introduction maison
 comments_id: 5
 draft: false
@@ -19,8 +19,8 @@ Dans votre maison, comme en cybersécurité, il y a toujours 2 aspects :
 
 La prévention correspond à tout ce que vous mettez en place pour éviter un malheur dans votre maison
 - Des serrures sur vos portes d'entrées et point d'accès ( *Gestion des identités et Contrôle des accès* ).
-- Au minimum, un capteur de fumée pour prévenir de tout début d'incendie ( *Détection des menaces* ).
-- Des habitudes de vies, s'assurer par exemple que votre porte principale est bien verrouillée en partant ( *Procédure et guide* ).
+- Au minimum, un capteur de fumée pour prévenir tout début d'incendie ( *Détection des menaces* ).
+- Des habitudes, s'assurer par exemple que votre porte principale est bien verrouillée en partant ( *Procédure et guide* ).
 - On peut imaginer plein d'autres accessoires, comme des caméras de surveillance, etc.
 
 Ces mesures de **préventions** doivent se faire sans froisser les occupants ou les visiteurs de la maison ( *gestion des ressources humaines et des parties prenantes* ).
