@@ -20,13 +20,13 @@ Pour protéger votre maison, comme en cybersécurité, il y a deux faces d'une m
 - Remise en état
 
 La prévention correspond à tout ce que vous mettez en place pour éviter un malheur dans votre maison
-- Vérifiez que vous connaissez bien les occupants de la maison ( *Gestion des identités* )
-- Des serrures sur vos portes d'entrées et point d'accès ( *Contrôle des accès* ).
-- Au minimum, un capteur de fumée pour prévenir tout début d'incendie ( *Détection des menaces* ).
-- Des habitudes, s'assurer par exemple que votre porte principale est bien verrouillée en partant ( *Procédure et guide* ).
-- Un membre de votre famille pourrait télécharger sur des sites douteux du contenu piraté ( *risque juridique et légal* )
+- Vous connaissez bien tous les occupants de la maison ( *Gestion des identités* )
+- Vous avez des serrures sur vos portes d'entrées et point d'accès ( *Contrôle des accès* ).
+- Au minimum, un capteur de fumée est installé pour prévenir tout début d'incendie ( *Détection des menaces* ).
+- Des bonnes habitudes, par exemple comme s'assurer que votre porte principale est bien verrouillée en partant ( *Procédure et guide* ).
 
-Je vous laisse imaginer les autres soucis domestiques et les accessoires pour y remédier.  Pour plus de sécurité, vous pourriez vouloir mettre des serrures à chaque porte. À l'inverse, pour plus de transparence, retirer le verrou des toilettes.
+Votre connexion WiFi pourrait aussi être utilisée pour télécharger du contenu piraté ( *risque juridique et légal* )
+Pour plus de sécurité, vous pourriez vouloir mettre des serrures à chaque porte. À l'inverse, pour plus de transparence, retirer le verrou des toilettes. Je vous laisse imaginer toute autre menace domestique pouvant vous affecter et les mesures pour y remédier.  
 
 Ces mesures de **préventions** doivent se faire sans froisser les occupants ou les visiteurs de la maison ( *gestion des ressources humaines et des parties prenantes* ). Le tout, dépendant de votre appétit à vous couvrir, peut nécessiter une certain montant d'argent ( *gestion du budget* )
 
