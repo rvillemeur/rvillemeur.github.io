@@ -9,8 +9,8 @@ draft: false
 ---
 
 Je n'y comprends rien à ces demandes qu'on nous envoie sur nos mesures de protection.
-La cyber-sécurité, c'est compliqué, et ça n'est que de l'informatique. 
-Essayons d'y voir un peu plus clair.
+La cyber-sécurité, c'est compliqué, et ça n'est que de l'informatique. Le jargon est réservé aux spécialistes.
+Essayons d'y voir un peu plus clair:
 
 Considérez la cybersécurité comme votre maison. Vous ne cherchez pas à couvrir uniquement une pièce comme votre cuisine, votre salon, ou votre chambre à coucher.
 Vous voulez protéger l'intégralité de votre demeure, du toit au sous-sol. Cela inclut également la plomberie, l'électricité, les fondations, les relations de voisinage, etc.
