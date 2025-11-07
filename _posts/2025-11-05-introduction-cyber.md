@@ -24,9 +24,9 @@ La prévention correspond à tout ce que vous mettez en place pour éviter un ma
 - Des serrures sur vos portes d'entrées et point d'accès ( *Contrôle des accès* ).
 - Au minimum, un capteur de fumée pour prévenir tout début d'incendie ( *Détection des menaces* ).
 - Des habitudes, s'assurer par exemple que votre porte principale est bien verrouillée en partant ( *Procédure et guide* ).
-- Un membre de votre famille a téléchargé sur des sites douteux du contenu piraté ( *risque juridique et légal* )
+- Un membre de votre famille pourrait télécharger sur des sites douteux du contenu piraté ( *risque juridique et légal* )
 
-Je vous laisse imaginer les autres soucis domestiques, et accessoire pour y remédier.  Pour plus de sécurité, vous pourriez vouloir mettre des serrures à chaque porte. À l'inverse, pour plus de transparence, retirer le verrou des toilettes.
+Je vous laisse imaginer les autres soucis domestiques et les accessoires pour y remédier.  Pour plus de sécurité, vous pourriez vouloir mettre des serrures à chaque porte. À l'inverse, pour plus de transparence, retirer le verrou des toilettes.
 
 Ces mesures de **préventions** doivent se faire sans froisser les occupants ou les visiteurs de la maison ( *gestion des ressources humaines et des parties prenantes* ). Le tout, dépendant de votre appétit à vous couvrir, peut nécessiter une certain montant d'argent ( *gestion du budget* )
 
