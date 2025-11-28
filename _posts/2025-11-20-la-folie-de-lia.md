@@ -3,39 +3,40 @@ layout: post
 title: la folie de l'IA
 permalink: blog/folieIA
 date: '2025-11-13 21:15:55 -0500'
-categories: cyber risques IA
+categories: cyber risques IA tiers
 comments_id: 7
-draft: true
+draft: false
 ---
 
-L'IA se retrouve partout.
-On parle surtout les LLMs, mais il faut aussi prendre en compte les modèles open-sources qu'on peut faire tourner sur des instances locales.
 
-Quand l'IA générative est apparu sur le marché, j'avais l'impression de voir un gigantesque paquet de bonbon pour les créatifs que je cotoyais dans l'univers du jeu vidéo. C'était Halloween tous les jours. Or, comme avec les bonbons, un manque d'hygiène peut entrainer des effets secondaires indésirables, et la visite régulière chez le dentiste pour corriger ou réparer ces conséquences.
+L'IA va nous rendre fou 🤪. Petit guide pour garder sa raison.
 
-En gestion des risques:
+Oh, je n'ai pas l'intention de comparer tel modèle à la mode à tel autre ou de vous vanter une bibliothèque de prompt déjà obsolète 📖📖. Je ne vais pas non plus vous faire peur avec les derniers exploits des agents IA, ou du réalisme atteint dans les campagnes d'hameçonnage ou phishing 😱.
 
-## IA locale
-* IA  locale, mais quid des modèles de données utiliser (origine, droit d'auteur, license d'utilisation).
-On parle de bulle IA, mais les IAs locale ne vont pas disparaitre tout de suite. Certains se positionne comme des fournisseurs logiciel traditionnel (ex: TabNine, Comfy UI). Ces solutions continueront de perdurer même si la bulle apparente sur les data-centers IA explose par manque de rentabilité.
+Dans la frénésie actuelle, c'est peine perdue, et d'autres s'en chargent bien mieux que moi. Je parle de l'IA, et en particulier de l'IA générative, d'un point de vue utilisation et gestion des risques en entreprises. L'IA étend le périmètre des risques de tiers de plusieurs façons:
 
-## IA Cloud
-* IA cloud, on perd totalement le controle, et on doit se fier aux conditions d'utilisations, et à la bonne volonté du fournisseur de ne pas utiliser 
-d'avantage les données fournies
+➡️ Le premier niveau, les LLMs accessibles directement.
+S'ils sont utilisés sans garde-fou, les LLMs grand public comme ChatGPT peuvent réutiliser nos prompts pour entrainer leur modèle. Outre le risque de fuite de données, vos informations peuvent se retrouver dans la réponse donnée à autre utilisateur en dehors de votre organisation. Si le risque est déjà bien identifié, il n'y a pas de remède universel, chaque organisation doit l'appréhender avec sa réalité d'affaire. 
 
-Service SAAS, le plus connu, on se branche directement sur le fournisseur. Les plus connu, Gemini, Anthropic Claude, ChatGPT.
-- Problème de shadow AI après le shadow IT, problème de sécurité des données avec les informations confidentielles.
-- Problème de la qualité des réponses, et des "halucinations" des IA.
-- Problème sur les licences "terms of use" qui peuvent changer sans préavis.
-- Problème de conformité, on ne sait pas ou les données sont traitées. Ex avec Copilot, qui ne traite pas les données au Canada, mais aux US avec un transit de donnée "live".
+➡️ Le second niveau, les LLMs intégré dans des offres SAAS ou des logiciels.
+L'IA se retrouve maintenant ajouté ou intégré à des offres existantes. Cursor, Canva, Adobe Firefly, Slack, Atlassian/Confluence, Office 365, etc. intègrent des assistants IA. Outre les risques existants liés aux SAAS, il faut y intégrer les clauses spécifiques pour ces modules IA : 
+* Les conditions d'utilisation
+* Le risque tarifaire
+* L'extraterritorialité des traitements. 
+* etc.
+Les garanties de sécurités sont rarement explicites sur le traitement IA et varient fortement d'un fournisseur à un autre. 
+Ici, le risque est déjà plus subtil à appréhender et s'ajoute au risque initial des applications SAAS. 
 
-Service inclus dans les SAAS. Ex. Miro, Slack, Confluence. Se base sur des modèles plus connu, mais intégré dans leur espace, et parfois tourne aussi en local.
-Nécessite de bien regarder les clauses d'utilisation, et le périmètre de sécurité accordé. Le SOC2 Type2 ou Iso27001 permet d'avoir une première idée de la sécurité.
-Si la sécurité est sérieuse, cela sera mis en avant dans la page *Trust* ou *compliance*. 
+➡️ Le troisième niveau, les LLMs installé en local
+Pour éviter des outils SAAS, ou pour des raisons de conformité, il est souvent possible d'utiliser des modèles en local. Tabnine pour le code, ComfyUI pour la génération d'image et de vidéo, Mistral, etc.
+On doit alors de soucier de :
+* Obsolescence rapide des solutions déployées et pérennité de la solution.
+* Un audit des sources utilisées pour limiter les attaques par chaine d'approvisionnement logiciel.
+* Le support si le produit est open-source. 
+* etc.
+Un nouvel enjeu est également d'identifier la licence des modèles de données utilisés pour entrainer les moteurs IA intégrés si on veut s'assurer du respect des droits d'auteurs par exemple.
 
-Service multi-IA. Ex: Cursor, Photoshop firefly.
-But: amélior le produit en proposant plusieurs IA pour choisir la meilleur.
-Problème: Intégration avec ses fournisseurs flous. Il faut analyser chaque service et trouver les termes et conditions pour chaque intégration avant de déterminer ce est acceptable ou non.
+Et vous, quels sont vos enjeux en matière de risque de tiers apportés par les IA génératives ?
 
 
 
