@@ -2,7 +2,7 @@
 layout: post
 title: La gestion du risque de tiers
 permalink: blog/risquetiers
-date: '2025-11-13 21:15:55 -0500'
+date: '2025-12-01 21:15:55 -0500'
 categories: cyber introduction maison tiers
 comments_id: 6
 draft: true
