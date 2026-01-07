@@ -2,7 +2,7 @@
 layout: post
 title: Note sur le langage C, assembleur de haut niveau
 permalink: blog/clanguage
-date: '2026-01-06 21:15:55 -0500'
+date: '2026-01-09 21:15:55 -0500'
 categories: cyber programmation langage c assembleur
 comments_id: 9
 draft: true
