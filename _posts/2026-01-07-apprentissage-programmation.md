@@ -1,4 +1,5 @@
---- layout: post
+--- 
+layout: post
 title: Comment expliquer les fondamentaux en programmation
 permalink: blog/fondamentauxprogrammation
 date: '2026-01-07 21:15:55 -0500'
@@ -75,3 +76,4 @@ L'ordinateur peut alors nous afficher à l'écran
 +-+-+-+-+-+-+-+-+-+-+-+
 |H|E|L|L|O| |W|O|R|L|D|
 +-+-+-+-+-+-+-+-+-+-+-+
+```
