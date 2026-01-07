@@ -1,9 +1,10 @@
---- layout: post
+--- 
+layout: post
 title: Étude de haut niveau sur le langage de programmation Rust
 permalink: blog/rustlanguage
 date: '2026-01-05 21:15:55 -0500'
 categories: cyber programmation langage rust
-comments_id: 8
+comments_id: 10
 draft: true
 ---
 
