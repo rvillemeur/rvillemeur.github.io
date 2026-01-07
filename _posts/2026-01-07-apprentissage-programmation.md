@@ -37,21 +37,35 @@ Notre texte peut alors être vu comme:
 +-+-+-+-+-+-+-+-+-+-+-+
 ```
 
-Transcrit en ascii
+Transcrit en ascii, avec la valeur exprimée en [hexadécimale](https://fr.wikipedia.org/wiki/Syst%C3%A8me_hexad%C3%A9cimal).
 
 ```txt
 +--+--+--+--+--+--+--+--+--+--+--+
-|68|65|6C|6C|6F|1B|78|6F|73|6C|64|
+|68|65|6C|6C|6F|20|78|6F|73|6C|64|
 +--+--+--+--+--+--+--+--+--+--+--+
 ```
 
-Pour le convertir en majuscule, on peut soustraire le nombre 20 à chaque lettre pour obtenir son équivalent minuscule/majuscule. **Attention**, le caractère *espace* ne doit pas être converti. On peut parcourir la chaine ou tableaux de caractère à l'aide d'une boucle parcourant chaque élément un par un. 
+Pour le convertir en majuscule, on peut soustraire le nombre 32 (ou 20 en hexadécimal) à chaque lettre pour obtenir son équivalent minuscule/majuscule. **Attention**, le caractère *espace* ne doit pas être converti. On parcourt le tableau de caractère à l'aide d'une boucle utilisant chaque élément un par un, jusqu'à l'élément final. 
+
+Voici un exemple de code: 
+
+```python
+tableau = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
+
+# Parcours par indice
+for i in range(len(tableau)):
+    ascii_val = ord(tableau[i]) #convertit un caractère en valeur ASCII
+
+    # Conversion minuscule → majuscule via ASCII
+    if 97 <= ascii_val <= 122:
+        tableau[i] = chr(ascii_val - 32) #convertit une valeur ASCII en caractère
+```
 
 Le résultat serait alors
 
 ```txt
 +--+--+--+--+--+--+--+--+--+--+--+
-|48|45|4C|4C|4F|1B|58|4F|53|4C|44|
+|48|45|4C|4C|4F|20|58|4F|53|4C|44|
 +--+--+--+--+--+--+--+--+--+--+--+
 ```
 
