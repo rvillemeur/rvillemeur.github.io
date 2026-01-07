@@ -2,7 +2,7 @@
 layout: post
 title: la folie de l'IA
 permalink: blog/folieIA
-date: '2025-11-13 21:15:55 -0500'
+date: '2025-11-28 21:15:55 -0500'
 categories: cyber risques IA tiers
 comments_id: 7
 draft: false
