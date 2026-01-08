@@ -16,7 +16,7 @@ Incontournable de l'histoire de l'informatique, inventé dans les années 70, é
 
 Il a inspiré de multiples langages avec ses éléments de syntaxe, des structures de contrôles ( *for, while, if-then-else, switch-case*, etc.), et sa fameuse utilisation des accolades pour définir le périmètre (scope) d'exécution. 
 
-Cet article vise à donner un aperçu du C, et pourquoi certains l'ont appelé un assembleur de haut niveau, alors que, de par sa proximité avec le matériel, il est aujourd'hui essentiellement considéré comme un langage de bas-niveau. 
+Cet article vise à donner un aperçu du C, et pourquoi certains l'ont appelé un assembleur de haut niveau, alors que, du fait de sa proximité avec le matériel, il est aujourd'hui essentiellement considéré comme un langage de bas-niveau. 
 
 Je ne cherche pas à documenter de façon exhaustive la syntaxe du langage ; Il y a plétore de livre et de documentation pour quiconque cherche à maitriser les arcanes de ce langage. Mon objectif est principalement de couvrir comment les développeurs de l'époque ont dépassé les limites du langage assembleur pour introduire, à l'aide de compilateur, un langage de plus haut niveau, permettant de raisonner sur des abstractions plus avancées, tout en gardant la puissance et la vitesse d'exécution de l'assembleur.
 
@@ -231,14 +231,13 @@ Enfin, comme en assembleur, il est possible de laisser ses commentaires (`/* com
 
 ### La manipulation des données et des variables.
 
-
 L'assembleur, de base, permet 2 accès aux données
 
 1. Accès direct.
 On déclare les variables directement `type identificateur;`, et leur contenu est détruit une fois le périmètre d'exécution (scope) terminé. Ce périmètre peut être une structure de contrôle, ou une fonction.
 
 2. Accès indirect et l'utilisation des pointeurs.
-* pointeur vers valeurs
+* pointeur vers valeurs (zone mémoire contenant une valeur ou le début d'un tableau).
 * pointeur vers fonctions (zone mémoire de code exécutable).
 
 Un pointeur référence simplement une adresse mémoire. Cette adresse permet soit d'identifier une valeur (pointeur simple), ou d'obtenir l'adresse d'une valeur cible (pointeur de pointeur). Le pointeur de fonction permet d'adresser de façon dynamique quelle fonction appeler, et de palier la rigidité d'un appel aux fonctions par leur nom (et donc leur adresse fixe), permettant une forme de polymorphisme. 
@@ -253,8 +252,11 @@ pi=&i;   /* Initialise le pointeur avec l'adresse de cette variable. */
 Les pointeurs permettent une allocation dynamique de la mémoire qu'il est possible de faire en assembleur, mais au prix d'un code fastidieux, sujet à erreur et répétitifs. Le C, cependant, force toujours le développeur à s'assurer que la mémoire allouée est libéré au bon moment, au prix sinon de fuite de mémoire ( *memory leak* )
 ```
 
-À noter, l'existence du type *array*, permettant de définir un tableau, en pratique un ensemble de donnée contigüe en mémoire. Les données étant proches, il est possible d'y accéder soit par une syntaxe spécifique aux tableaux (`array[position]`) soit par les pointeurs (`adresse + position`).
+À noter, l'existence du type *array*, permettant de définir un tableau, en pratique un ensemble de donnée contigüe en mémoire. Les données étant proches, il est possible d'y accéder soit par une syntaxe spécifique aux tableaux (`array[position]`) soit par les pointeurs (`adresse de départ + position`).
 
 ## conclusions
 
 Le langage C permet de transcrire dans un langage plus haut niveau des instructions finalement très proche du langage assembleur. Sa syntaxe universelle permet de traduire un même code source pour des architectures différentes. Lors de la compilation, il faudra tenir compte des différences d'architecture, en particulier sur le petit ou grand boutisme, la taille des champs de données, etc. Cependant, cette traduction se fait dans un langage plus avancé que l'assembleur, autorisant une portabilité de fait d'une architecture matérielle vers une autre. 
+
+Il permet d'écrire des applications très proches de la syntaxe processeur, permettant en théorie une exécution rapide (cela dépend toujours du programmeur et de la logique implémentée).
+Sa grande flexibilité offre une grande latitude, mais est aussi sa principale faiblesse. Le dépassement ou les fuites de mémoire sont la source des principaux bugs, et peuvent particulièrement ardus à débusquer dans une base de code conséquente. Le langage *Rust* comble la plupart de ces lacunes et offre certains palliatifs que nous découvrirons dans un prochain article. 
