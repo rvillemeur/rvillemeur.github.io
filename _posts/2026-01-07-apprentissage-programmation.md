@@ -5,7 +5,7 @@ permalink: blog/fondamentauxprogrammation
 date: '2026-01-07 21:15:55 -0500'
 categories: programmation langage 
 comments_id: 8
-draft: true
+draft: false
 ---
 
 Dans le cadre de la scolarité dans le programme français, on essaye de donner des notions de programmation aux élèves. Le langage utilisé, *Python* 🐍, est facile d'accès. Permettant de faire des scripts rapides pour illustrer certaines notions, il évite d'aborder trop vite les notions plus complexe de gestion de la mémoire comme en C/C++, ou des concepts comme la programmation procédurale, orienté objet ou fonctionnelle. 
