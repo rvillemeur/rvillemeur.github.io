@@ -8,17 +8,15 @@ comments_id: 8
 draft: true
 ---
 
-Dans le cadre de la scolarité dans le programme français, on essaye de donner des notions de programmation aux élèves. Le langage utilisé, *Python*, est facile d'accès. Permettant de faire des scripts rapides pour illustrer certaines notions, il évite d'aborder trop vite les notions plus complexe de gestion de la mémoire, ou des concepts comme la programmation procédurale, orienté objet ou fonctionnelle. 
+Dans le cadre de la scolarité dans le programme français, on essaye de donner des notions de programmation aux élèves. Le langage utilisé, *Python* 🐍, est facile d'accès. Permettant de faire des scripts rapides pour illustrer certaines notions, il évite d'aborder trop vite les notions plus complexe de gestion de la mémoire comme en C/C++, ou des concepts comme la programmation procédurale, orienté objet ou fonctionnelle. 
 
-Cependant, en discutant avec ma fille, j'ai pu voir que des notions plus basiques avait beaucoup de mal à passer. Au lycée, la notion de fonction mathématique est déjà abordée, et il était relativement simple d'expliquer la notion de fonction en Python. De même, la notion de variable s'illustre bien avec l'utilisation de fonction affine, de type `y = a.x + b`, largement étudiée en classe.
+Cependant, en discutant avec ma fille, j'ai pu voir qu'elle avait du mal à bien appréhender des notions de base en programmation. Au lycée, avec l'utilisation de fonction affine, de type `y = a.x + b`, largement étudiée en classe, la notion de fonction mathématique est déjà abordée. Il est alors relativement simple d'expliquer la notion de fonction ou de variable en Python.
 
-En revanche, plusieurs exemples donnés introduisaient directement la notion de boucle. Boucle *For*, bouche *while*. Et sa question: À quoi ça peut bien servir ??? Ce n'est pas tant le concept de répétition que le manque d'exemple parlant qui posait problème. Les exemples vus jusqu'à présent montraient surtout Python et la programmation comme une calculatrice graphique sur stéroïde. Cependant, il est difficile d'expliquer comment on est passé du codage d'une fonction affine à la capacité de modélisation qu'un développeur est capable de faire en développant un logiciel. 
+En revanche, plusieurs exemples donnés introduisaient directement la notion de boucle. Boucle *for*, bouche *while*. Et sa question: À quoi ça peut bien servir ??? Ce n'est pas tant le concept de répétition que le manque d'exemple parlant qui posait problème. Les exemples présentés initialement montraient surtout Python et la programmation comme une calculatrice sur stéroïde. Comment expliquer après la transition du codage d'une fonction affine aux belles interfaces et applications actuelles, sans introduire la capacité de modélisation apporté par la programmation.
 
-J'ai finalement trouvé une explication concrète et pratique en revenant aux fondamentaux. Plutôt que de chercher à expliquer une abstraction par une image par forcément parlante, j'ai pris comme base le premier programme qu'on cite comme exemple en programmation: le "hello world".
+J'ai finalement trouvé une explication concrète et pratique en revenant aux fondamentaux. Plutôt que de chercher à expliquer une abstraction par une image par forcément parlante, j'ai pris comme base le premier programme qu'on cite comme exemple en programmation: le "hello world". Il faut se rappeler qu'un ordinateur, au plus bas niveau, ne fait que manipuler des entiers. C'est une fantastique machine à calculer, capable aujourd'hui de faire plusieurs millions de calculs par seconde. 
 
-À partir de cette simple chaîne de caractère, j'ai pu introduire la modélisation de donnée, la notation hexadécimale, le concept de tableaux, le choix *if/else* et la possibilité de parcourir la chaine pour la transformer, par exemple en la convertissant en majuscule. D'un seul coup, j'ai pu voir que ce qui était totalement abstrait prenait une tournure plus réelle. Un simple exemple comme celui-là permet d'illustrer un certain nombre de concept fondamentaux en programmation.
-
-Il faut se rappeler qu'un ordinateur, au plus bas niveau, ne fait que manipuler des entiers. C'est une fantastique machine à calculer, capable aujourd'hui de faire plusieurs millions de calculs par seconde. Cependant, pour pouvoir être utilisé autrement, il faut modéliser l'information, c'est-à-dire se mettre d'accord sur comment une suite de chiffre permet de représenter certaines choses. On a tellement pris l'habitude de voir du texte représenté sur un écran, qu'on en a oublié que même le texte nécessite d'être modélisé pour pouvoir être manipulé par un ordinateur. Si aujourd'hui le standard *Unicode* permet de représenter tout caractère existant, initialement, c'est le standard *Ascii* (American Standard Code for Information Interchange) qui s'est répandu.
+Cependant, pour pouvoir être utilisé autrement, il faut modéliser l'information, c'est-à-dire se mettre d'accord sur comment une suite de chiffre permet de représenter certaines choses. On a tellement pris l'habitude de voir du texte représenté sur un écran, qu'on en a oublié que même le texte nécessite d'être modélisé pour pouvoir être manipulé par un ordinateur. Si aujourd'hui le standard *Unicode* permet de représenter tout caractère existant, initialement, c'est le standard *Ascii* (American Standard Code for Information Interchange) qui s'est répandu.
 
 Ce code associe à chaque lettre et plusieurs symboles (espace, saut à la ligne, etc.) un chiffre. L'ordinateur est capable de manipuler ces chiffres, et d'afficher ensuite le résultat sous forme de texte, donnant l'illusion de manipuler le texte directement.
 
@@ -77,3 +75,14 @@ L'ordinateur peut alors nous afficher à l'écran
 |H|E|L|L|O| |W|O|R|L|D|
 +-+-+-+-+-+-+-+-+-+-+-+
 ```
+
+Un simple exemple comme celui-là permet d'illustrer un certain nombre de concept fondamentaux en programmation:
+- la modélisation de donnée
+- la notation hexadécimale
+- le concept de tableaux
+- le choix *if/else* 
+- la possibilité de parcourir la chaine pour la transformer, par exemple en la convertissant en majuscule. 
+
+D'un seul coup, j'ai pu voir dans son regard 💡 que ce qui était totalement abstrait prenait une tournure plus réelle 🎉
+
+
