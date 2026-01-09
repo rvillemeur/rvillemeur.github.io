@@ -12,13 +12,13 @@ draft: true
 
 ## introduction
 
-Incontournable de l'histoire de l'informatique, inventé dans les années 70, étroitement lié au système Unix/Linux, le langage de programmation C compte toujours dans les langages de programmation les plus utilisés plus de 60 ans après son invention.
+Incontournable de l'histoire de l'informatique, inventé dans les années 70, étroitement lié au système Unix/Linux, le langage de programmation C compte toujours dans les langages de programmation les plus utilisés plus de 50 ans après son invention.
 
-Il a inspiré de multiples langages avec ses éléments de syntaxe, des structures de contrôles ( *for, while, if-then-else, switch-case*, etc.), et sa fameuse utilisation des accolades pour définir le périmètre (scope) d'exécution. 
+Il a inspiré de multiples langages avec ses éléments de syntaxe, ses structures de contrôles ( *for, while, if-then-else, switch-case*, etc.), et sa fameuse utilisation des accolades pour définir le périmètre (scope) d'exécution. 
 
 Cet article vise à donner un aperçu du C, et pourquoi certains l'ont appelé un assembleur de haut niveau, alors que, du fait de sa proximité avec le matériel, il est aujourd'hui essentiellement considéré comme un langage de bas-niveau. 
 
-Je ne cherche pas à documenter de façon exhaustive la syntaxe du langage ; Il y a plétore de livre et de documentation pour quiconque cherche à maitriser les arcanes de ce langage. Mon objectif est principalement de couvrir comment les développeurs de l'époque ont dépassé les limites du langage assembleur pour introduire, à l'aide de compilateur, un langage de plus haut niveau, permettant de raisonner sur des abstractions plus avancées, tout en gardant la puissance et la vitesse d'exécution de l'assembleur.
+Je ne cherche pas à documenter de façon exhaustive la syntaxe du langage ; Il y a pléthore de livre et de documentation pour quiconque cherche à en maitriser les arcanes. Mon objectif est principalement de couvrir comment les développeurs de l'époque ont dépassé les limites du langage assembleur pour introduire, à l'aide de compilateur, un langage de plus haut niveau, permettant de raisonner sur des abstractions plus avancées, tout en gardant la puissance et la vitesse d'exécution de l'assembleur.
 
 ## Les instructions de base d'un processeur et représentation de la mémoire.
 
