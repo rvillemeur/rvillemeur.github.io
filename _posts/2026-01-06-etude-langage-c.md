@@ -12,7 +12,7 @@ draft: true
 
 ## introduction
 
-Incontournable de l'histoire de l'informatique, inventé dans les années 70, étroitement lié au système Unix/Linux, le langage de programmation C est toujours incontournable plus de 60 ans après son invention.
+Incontournable de l'histoire de l'informatique, inventé dans les années 70, étroitement lié au système Unix/Linux, le langage de programmation C compte toujours dans les langages de programmation les plus utilisés plus de 60 ans après son invention.
 
 Il a inspiré de multiples langages avec ses éléments de syntaxe, des structures de contrôles ( *for, while, if-then-else, switch-case*, etc.), et sa fameuse utilisation des accolades pour définir le périmètre (scope) d'exécution. 
 
