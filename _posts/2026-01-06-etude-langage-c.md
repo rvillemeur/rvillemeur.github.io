@@ -250,7 +250,6 @@ pi=&i;   /* Initialise le pointeur avec l'adresse de cette variable. */
 ```
 
 Les pointeurs permettent une allocation dynamique de la mémoire qu'il est possible de faire en assembleur, mais au prix d'un code fastidieux, sujet à erreur et répétitifs. Le C, cependant, force toujours le développeur à s'assurer que la mémoire allouée est libéré au bon moment, au prix sinon de fuite de mémoire ( *memory leak* )
-```
 
 À noter, l'existence du type *array*, permettant de définir un tableau, en pratique un ensemble de donnée contigüe en mémoire. Les données étant proches, il est possible d'y accéder soit par une syntaxe spécifique aux tableaux (`array[position]`) soit par les pointeurs (`adresse de départ + position`).
 
