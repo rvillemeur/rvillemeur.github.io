@@ -25,7 +25,7 @@ Rust, comme le langage C, fournis un certains nombre de type primaire. Ces types
 ### première innovation - la notion de propriété (ownership)
 
 En C/C++, l'opérateur le plus critique pour gérer la mémoire est ***}***. Il définit la fin d'une portée (scope), et quand on le rencontre, le développeur consciencieux doit être capable de dire à qui appartient les ressources utilisées. En pratique, il est souvent compliqué de le savoir, surtout dans des bases de code complexes et maintenues sur plusieurs années.
-
+ 
 Rust, par sa notion d'ownership, place cette problématique au cœur de son modèle de programmation. Si le développeur n'est pas explicite sur la portée d'allocation d'une variable, le programme ne compilera tout simplement pas. Cela limite énormement les problèmes de fuite mémoire trop fréquente en C/C++.
 
 Enfin, Rust introduit la notion de *lifetime*, qui permet de savoir dans quelle portée une variable doit continuer d'exister, en particulier quand il y a passage de référence entre fonctions.
@@ -104,7 +104,7 @@ Rust fait un usage des enums pour répondre au même besoin. La bibliothèque st
 
 - *Result<T, E>*: Une énumération avec les variantes *Ok(T)* (succès avec la valeur T) et *Err(E)* (échec avec l'erreur E) pour une gestion robuste des erreurs, forçant la reconnaissance explicite et la gestion des erreurs potentielles.
 
-De nouveau, Rust inclut, par défaut, un mécanisme et des outils qui font soit partie des bonnes pratiques ou des conventions apportées par les années. En incluant directement dans la distribution du compilateur et de la librairie standard des mécanismes pour gérer ce type de situation, Rust simplifie la vie du développeur qui n'a pas besoin de s'assurer que son intention est bien comprise par les utilisateurs de son code. 
+De nouveau, Rust inclut, par défaut, un mécanisme et des outils qui font soit partie des bonnes pratiques ou des conventions apportées par les années. En incluant directement dans la distribution du compilateur et de la librairie standard des mécanismes pour gérer ce type de situation, Rust simplifie la vie du développeur qui n'a pas besoin de s'assurer que son intention est bien comprise par les utilisateurs de son code.
 
 ## conclusion
 
